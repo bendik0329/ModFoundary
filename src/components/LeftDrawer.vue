@@ -71,12 +71,6 @@
           </v-icon>&nbsp;
           <span class="tree-text">{{ item.name }}</span>
         </div>
-        <div v-else @contextmenu="handleContextMenu($event, item)">
-          <v-icon color="white">
-            {{ item.icon }}
-          </v-icon>&nbsp;
-          <span class="tree-text">{{ item.name }}</span>
-        </div>
       </template>
     </v-treeview>
     <v-menu
